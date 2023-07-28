@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color:antiquewhite;">
+    <br>
+    <br>
+    <center>    <div><img src="download.png" alt="kce logo" width="440px"></div>
+    </center>
+    <p style="text-align: center;"><a href="index.html" class="login" style="text-decoration: none;font-size: large; background-color: azure;"><b>HOME</b></a> &nbsp; &nbsp; <a href="login.html" style="text-decoration: none; background-color: azure; font-size: large;"><b>SIGNUP</b></a>
+    </p>
+
+     <br> <form action="get" method="get">
+    <center>
+        <table border="1" style="background-color: antiquewhite; border-color: black; width: 410px; height: 500px;">
+            <tr> 
+                <td colspan="2" style=" color: black; background-color: yellowgreen;"><center><h2>Registration Form</h2></center></td>
+            </tr>
+    <tr>
+        <td>Enter Name</td>
+        <td><input type="text"></td>
+    </tr>
+    <tr>
+        <td>Enter Roll Number</td>
+        <td><input type="text" name="rollno" required></td>
+    </tr>
+    <tr>
+        <td>Enter Password</td>
+        <td><input type="password" maxlength="20" required></td>
+    </tr>
+
+    <tr>
+        <td> Select Institution</td>
+        <td><select name="clg" required>
+        <option value="Select">Select</option>
+        <option value="kce">KCE</option>    
+        <option value="kit">KIT</option>    
+        <option value="kahe">KAHE</option>    
+        <option value="pharm">PHARMACY/NURSING</option>    
+        <option value="medical">MEDICAL</option>    
+    </select>
+    </td>
+    </tr>
+    <tr>
+        <td> Select Department</td>
+        <td><select name="Department">
+        <option value="Select">Select</option>
+        <option value="cse">CSE</option>    
+        <option value="it">IT</option>    
+        <option value="ece">ECE</option>    
+        <option value="aids">AIDS</option>    
+        <option value="eee">EEE</option>    
+    </select>
+    </td>
+    </tr>
+   
+    <tr>
+        <td>Gender</td>
+        <td><input type="radio"> <b>Male</b> &nbsp;
+        <input type="radio"> <b>Female</b></td>
+    </tr>
+      <tr> 
+        <td> Date Of Birth</td>
+        <td><input type="date" name="dob"></td>
+    </tr>
+    
+    <tr>
+        <td>Enter Address</td>
+        <td><textarea id="addr" cols="25" rows="6"></textarea></td>
+    </tr>
+  
+   
+  
+    <tr>
+        <td>Bus Stop</td>
+        <td><input type="text"></td>
+    </tr>
+    <tr>
+      <td colspan="2" style="font-size: x-large; text-align: center
+      ;">  <input type="reset" value="Reset"> &nbsp; <input type="submit" value="Submit Form"></td>
+    
+    </tr>
+        </table>
+    </center>
+</form>
+    </body>
+    
+</body>
+</html>
